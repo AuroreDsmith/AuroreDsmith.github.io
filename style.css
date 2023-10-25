@@ -1,0 +1,75 @@
+
+
+html {
+  margin: 2rem 6rem;
+  background-color: rgb(235, 233, 233);
+  font-family:Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+h2, a {
+  color: rgb(197, 0, 0);
+  font-weight: bold;
+}
+
+th {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+td:nth-child(odd) {
+font-weight: bold;}
+
+td {
+  padding: 0.3rem;
+}
+
+tr:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+figure {
+  position: relative;
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: rgb(44, 44, 44);
+  padding: 2rem;
+}
+
+figure img {
+position: relative;
+width: 100%;
+}
+
+figcaption {
+  color: white;
+  padding-top: 1rem;
+  font-style: italic;
+  text-align: center;
+}
+
+#proto-special {
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem;
+  border: 2px dashed rgb(100, 40, 196);
+  text-align: justify;
+  color: rgb(100, 40, 196);
+  background-color: rgb(211, 211, 211);
+}
+
